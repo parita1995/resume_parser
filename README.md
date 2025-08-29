@@ -10,6 +10,7 @@ PDF/DOCX text extraction (PyMuPDF fallback to pdfminer)
 Deterministic JSON (temperature 0) with basic validation
 Batch parsing + JSONL export
 Streamlit UI for upload, review, and download
+```text
 Repo layout
   ├─ app.py # Streamlit UI 
   ├─ resume_parser.py # Free-only parser (Ollama) 
