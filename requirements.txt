@@ -1,1 +1,27 @@
+Requirements
+1) System
+  OS: Windows 10/11, macOS 12+, or Ubuntu 20.04+
+  CPU: Any 64-bit; GPU optional
+  RAM: 8 GB minimum, 16 GB recommended
+  Disk: 6–10 GB free (models + Python env)
+  Network: Only for first-time model download
+
+2) Software
+  Python 3.10 or newer
+  Ollama (desktop app or CLI). Keep it running while you use the app.
+
+3) Local LLM model
+  ollama pull llama3.1:8b (~4–5 GB size)
+
+4) Python packages
+
+| Package        | Purpose                                                    |
+| -------------- | ---------------------------------------------------------- |
+| `streamlit`    | Web UI for upload, preview, and download                   |
+| `ollama`       | Talks to the local model daemon                            |
+| `pydantic`     | Validates and structures the JSON output                   |
+| `pymupdf`      | Fast PDF text extraction                                   |
+| `pdfminer.six` | Slow but robust PDF fallback when PyMuPDF gives empty text |
+| `python-docx`  | Reads `.docx` resumes                                      |
+
 
