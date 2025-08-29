@@ -11,7 +11,7 @@ Deterministic JSON (temperature 0) with basic validation
 Batch parsing + JSONL export
 Streamlit UI for upload, review, and download
 Repo layout
-. ├─ app.py # Streamlit UI 
+  ├─ app.py # Streamlit UI 
   ├─ resume_parser.py # Free-only parser (Ollama) 
   ├─ requirements.txt # Python deps 
   ├─ scripts/  
