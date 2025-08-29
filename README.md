@@ -1,7 +1,7 @@
 # resume_parser
 It's a generic Resume Parser solution that supports two file formats (PDF and Word).
 
-Resume Parser — Local, Free LLM (Ollama) + Streamlit UI
+Resume Parser -Local, Free LLM (Ollama) + Streamlit UI
 Parse PDF/DOCX resumes to clean JSON using a local model. No cloud calls.
 
 Features
